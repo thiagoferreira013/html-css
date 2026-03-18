@@ -1,0 +1,59 @@
+/* O segredo para o card não "pular" no hover é o border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border: 6px double #333; /* Borda dupla */
+    padding: 25px;           /* Respiro interno */
+    margin: 50px auto;       /* Centralizado na tela */
+    text-align: center;
+}
+
+.produto-imagem {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 15px;
+    margin: 0 auto 20px auto; /* Centraliza e afasta do título */
+    border: 1px solid #bbb;
+}
+
+.titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.botao-compra {
+    /* Paddings diferentes: 12px topo/baixo e 40px lados */
+    padding: 12px 40px;
+    background-color: #000;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efeito de hover */
+.botao-compra:hover {
+    background-color: white;
+    color: #000;
+    border: 2px solid #000;
+    padding: 15px 45px; /* Aumenta o padding sem quebrar o card */
+}

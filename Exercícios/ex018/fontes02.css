@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'love';
+    src: url('fonts/Mf\ Love\ Song.ttf') format('truetype');
+
+    /* formatos das fontes format()
+    - OpenType (otf)
+    - TrueType (ttf)
+    - svg
+    - Embedded-opentype
+    - Truetype-aat (Apple Advanced Typography)
+    */
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    font-family: Arial,serif;
+}
+
+h1{
+    font-family: 'love';
+    font-size: 4em;
+    font-weight: normal;
+}

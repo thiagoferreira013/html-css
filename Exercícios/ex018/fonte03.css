@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'nike';
+    src: url(fonts/fonts1/Nike\ Futura\ ND.otf) format('opentype'), url(fonts/fonts1/Nike\ Futura\ ND.ttf) format('truetype');
+}
+
+
+body{
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'nike';
+    font-size: 3em;
+}

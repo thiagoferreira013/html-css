@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+#base{
+    border: 5px solid;
+    border-radius: 15px;
+    height: 21em;
+    width: 9em;
+    color: grey;
+    background-color: black;
+    margin-left: 37.5em;
+}
+
+
+.semaforo{
+    border: 5px solid grey;
+    border-radius: 100px;
+    height: 5em;
+    width: 5em;
+    margin-top: 1em;
+    margin-left: 1.55em;
+}
+
+.semaforo#verde:hover{
+    background-color: green;
+}
+
+.semaforo#amarelo:hover{
+    background-color: rgb(221, 218, 16);
+}
+
+.semaforo#vermelho:hover{
+    background-color: rgb(192, 19, 13);
+}
+
+
+
+#link > a{
+  display: flex;             /* Ativa o modo flexível */
+  justify-content: center;   /* Centraliza horizontalmente */
+  align-items: center;       /* Centraliza verticalmente */
+  
+  width: 200px;
+  height: 60px;
+  border: 5px solid gray;
+  border-radius: 50px;       /* Cria o formato de pílula */
+}
+
+
+
+
+
+
