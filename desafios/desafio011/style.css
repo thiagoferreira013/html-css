@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(image/espaco.jpg);
+    background-size: cover;
+}
+
+.astronauta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
