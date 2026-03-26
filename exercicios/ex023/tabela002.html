@@ -12,6 +12,7 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            position: relative;
         }
 
         th{
@@ -34,10 +35,19 @@
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky;
+            position: 0px;
+        }
+
         caption{
             font-size: 1.3em;
             font-weight: bold;
             padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n){
             background-color: lightgray;
         }
     </style>
