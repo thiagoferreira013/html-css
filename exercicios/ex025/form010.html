@@ -6,6 +6,20 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo de o</h1>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iano">Que ano você nasceu? </label>
+            <input type="text" name="iano" id="iano" oninput="ianoput.innerHTML = 2026 - Number(iano.value)">
+        </p>
+
+        <label for="ianoput">Sua idade é:</label>
+        <output id="ianoput">0</output>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
