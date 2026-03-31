@@ -2,3 +2,9 @@
 
 
 /*Aparelho em pé (portrait) */
+
+body{
+    background-image: url(../imagens/imagens/cev-portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
