@@ -6,26 +6,22 @@
     box-sizing: border-box;
 }
 
-
-body, html{
+body{
     background-color: lightgrey;
 }
 
-
 header{
-    background-color: gray;
-
+    background-color: rgb(87, 87, 87);
 }
 
 header > h1{
-    padding: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 #burguer{
     display: block;
-    background-color: rgb(59, 59, 59);
-    color: white;
+    background-color: rgb(53, 53, 53);
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -33,28 +29,26 @@ header > h1{
 
 #burguer:hover{
     background-color: white;
-    color: black;
 }
 
-header > nav{
+nav{
     display: none;
 }
 
-header > nav > ul{
-    list-style-type: none;
-}
-
-header > nav > ul > li > a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    background-color: rgb(71, 70, 70);
-    color: white;
+nav > ul > li{
     text-align: center;
-    border-top: 2px solid rgb(168, 166, 166);
+    border-top: 1px solid gray;
+    background-color: rgb(53, 53, 53);
 }
 
-header > nav > ul > li > a:hover{
+nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > ul > li > a:hover{
     background-color: gray;
 }
 
@@ -62,17 +56,14 @@ main{
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 10px;
     border-radius: 10px;
 }
 
-main > article > h2{
-    padding-bottom: 10px;
-}
-
 main > article > p{
     text-align: justify;
-    margin-bottom: 20px;
+    margin-top: 20px;
     text-indent: 20px;
 }
+
